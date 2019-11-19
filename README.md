@@ -20,3 +20,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes"
 
 ### Mengapa lebih baik ssh daripada https ?
 alasannya adalah jika menggunakan ssh tidak perlu login saat ingin push ke repository seperti ssh
+
+#### Alasan menggunakan python !
+alsannya adalah bahasa python lebih mudah dari pada bahasa lainnya dan lebih manusiawi daripada bahasa yang lain, contoh bahasa laing perlu menggunakan titik koma sedangkan python tidak hanya saja lebih fokus ke inden pada teks (yaitu menjoroknya sebuah teks)
