@@ -23,3 +23,6 @@ alasannya adalah jika menggunakan ssh tidak perlu login saat ingin push ke repos
 
 #### Alasan menggunakan python !
 alsannya adalah bahasa python lebih mudah dari pada bahasa lainnya dan lebih manusiawi daripada bahasa yang lain, contoh bahasa laing perlu menggunakan titik koma sedangkan python tidak hanya saja lebih fokus ke inden pada teks (yaitu menjoroknya sebuah teks)
+
+##### Pastikan telah mengintal python !
+1. cara memastikannya dengan cara "phyton --version" atau "py --version" dan lihatlah versi python yang telah terinstal
