@@ -26,3 +26,6 @@ alsannya adalah bahasa python lebih mudah dari pada bahasa lainnya dan lebih man
 
 ##### Pastikan telah mengintal python !
 1. cara memastikannya dengan cara "phyton --version" atau "py --version" dan lihatlah versi python yang telah terinstal
+
+###### Bagaimana jika python belum terinstall ?
+ikuti tautan berikut https://www.dicoding.com/academies/86/tutorials/4738?from=4736 (daftar akun dicoding terlebih dahulu)
