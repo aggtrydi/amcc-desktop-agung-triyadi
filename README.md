@@ -17,3 +17,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes"
 2. saat ingin menambahkan perubahan pada git, caranya git commit -am "pesan perubahan"
 3. pastikan sudah tecommit dengan "git status"
 4. setelah di commit dan sudah benar bisa langsung di push dengan "git push"
+
+### Mengapa lebih baik ssh daripada https ?
+alasannya adalah jika menggunakan ssh tidak perlu login saat ingin push ke repository seperti ssh
