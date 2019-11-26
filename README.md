@@ -32,14 +32,14 @@ ikuti tautan berikut https://www.dicoding.com/academies/86/tutorials/4738?from=4
 
 # Hello World dengan python
 1. Buat sebuah file dengan nama main.py, cara berikut ini
-'
+`
 nano main.py
-'
+`
 2. Jalankan file tersebut dengan cara
-'
+`
 python main.py
-'
+`
 3. Hasil output harusnya sesuai dengan inputnya, yaitu :
-'
+`
 Hello World !!!
-'
+`
