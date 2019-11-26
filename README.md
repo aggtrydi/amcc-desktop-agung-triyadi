@@ -31,15 +31,21 @@ alsannya adalah bahasa python lebih mudah dari pada bahasa lainnya dan lebih man
 ikuti tautan berikut https://www.dicoding.com/academies/86/tutorials/4738?from=4736 (daftar akun dicoding terlebih dahulu)
 
 # Hello World dengan python
-1. Buat sebuah file dengan nama main.py, cara berikut ini
+Masuk ke direktori folder repository ini dengan cara :
+```bash
+cd /path/nama-direktori
 `
+NB : merupakan nama-nama direktori diatas direktori repository ini, seperti misalnya Document
+
+1. Buat sebuah file dengan nama main.py, cara berikut ini
+`bash
 nano main.py
 `
 2. Jalankan file tersebut dengan cara
-`
+`python
 python main.py
 `
 3. Hasil output harusnya sesuai dengan inputnya, yaitu :
-`
+`python
 Hello World !!!
 `
