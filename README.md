@@ -41,11 +41,15 @@ NB : merupakan nama-nama direktori diatas direktori repository ini, seperti misa
 `bash
 nano main.py
 `
-2. Jalankan file tersebut dengan cara
+2.
+`python
+print('Hello World !!!')
+`
+3. Jalankan file tersebut dengan cara
 `python
 python main.py
 `
-3. Hasil output harusnya sesuai dengan inputnya, yaitu :
+4. Hasil output harusnya sesuai dengan inputnya, yaitu :
 `python
 Hello World !!!
 `
