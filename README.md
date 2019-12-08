@@ -58,12 +58,6 @@ Hello World !!!
 1. Python interpreter merupakan program yang dibaca & dieksekusi pada sebuah sesi pada command line. Untuk masuk ke python interpreter, caranya sebagai berikut :
     -Buka CMD (windows) / Terminal (Linux/MacOS) >> Ketikkan 'Python'
 
-```Python
-PS C:\Users\Lenovo\Documents\Python\amcc-desktop-sabila>python
-Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
->>>
-
-```
 ## Menggunakan Modul (Function Dasar)
 Modul merupakan set program yang sudah disediakan oleh python yang tinggal pakai, contohnya adalah seperti ini :
 
@@ -92,4 +86,21 @@ Lalu kita bakal buat program untuk mengacak nama dari seluruh pelatih desktopbpr
 ...
 >>> random_name()
 'yanuar'
+```
+
+## Variabel
+```Python
+import datetime
+print('Waktu Sekarang adalah ',datetime.datetime.now())
+
+#Variabel
+mynow =  datetime.datetime.now()
+print(mynow)
+
+print(datetime.datetime.now())
+
+#Menggabungkan INT & STR
+number = 10
+string = 'Agung Triyadi'
+print(number, string)
 ```
