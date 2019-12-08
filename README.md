@@ -104,3 +104,17 @@ number = 10
 string = 'Agung Triyadi'
 print(number, string)
 ```
+
+## Simple Type
+```Python
+a = 10
+b = '10'
+c = 10.1
+
+sum1 = a+a
+sum2 = b+b
+sum3 = c+c
+
+print(sum1, sum2, sum3)
+print(type(a), type(b), type(c))
+```
