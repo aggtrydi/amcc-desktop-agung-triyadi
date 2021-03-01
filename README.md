@@ -1,120 +1,116 @@
-# amcc-desktop-agung-triyadi
-Project pelatihan python dan github amcc divisi desktop
+# amcc-dekstop-yanuar
+projek platihan python dan git hub amcc dekstop
 
-# Bagimana clone repository ?
-1. pada halaman ini, klik clone repository > copy SSH
-2. Buka Terminal (Linux) atau GitBash (Windows), lalu clone Repository dengan cara
-"$ git clone git@github.com:dvrg/dp-2019.git"
-3. untuk pertamkali clone, fingerprint akan didaftarkan ke komputer kamu dan konfirmasi penambahan itu dengan yes
-"Cloning into 'dp-2019'...
-The authenticity of host 'github.com (13.229.188.59)' can't be established.
-RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? yes"
-4. maka repository akan tercopy ke lokal komputer kamu.
+cara ngeclone repository
+1. buka profile anda, lalu klik your repositories
+2. klik new (repository)
+3. isi name repository dan kolom di bawahnya sesuai yang diinginkan
+4. pilih public
+5. jangan lupa centang (Initialize this repository with a README) 
+6. klik Add,gitignore :None (pilih python)
+7. lalu klik CREATE REPOSITORY
+8. lalu copy SSH repository
+9. buka git bush lslu paste SSHnya, 
+10. stelah dicopy tambahkan (git clone) pada SSHnya
+11. lalu enter.
 
-## Bagaimana cara commit dan push
-1. patikan perubahan pada file dengan "git status"
-2. saat ingin menambahkan perubahan pada git, caranya git commit -am "pesan perubahan"
-3. pastikan sudah tecommit dengan "git status"
-4. setelah di commit dan sudah benar bisa langsung di push dengan "git push"
+#Bagaimana cara commit dan push
+1. stelah melakukan perubahan, cek git anda dengan perintah 'git status'
+2. lalu simpan perubahan dengan perintah 'git commit -am "pesan commit" '
+3. pastikan dulu sudah tercommit , dengan perintah 'git status'
+4. kirimkan perubahan dengan ngepush  dengan perintah 'git push'
+5. lalu cek pada repository
 
-### Mengapa lebih baik ssh daripada https ?
-alasannya adalah jika menggunakan ssh tidak perlu login saat ingin push ke repository seperti ssh
 
-#### Alasan menggunakan python !
-alsannya adalah bahasa python lebih mudah dari pada bahasa lainnya dan lebih manusiawi daripada bahasa yang lain, contoh bahasa laing perlu menggunakan titik koma sedangkan python tidak hanya saja lebih fokus ke inden pada teks (yaitu menjoroknya sebuah teks)
-
-##### Pastikan telah mengintal python !
-1. cara memastikannya dengan cara "phyton --version" atau "py --version" dan lihatlah versi python yang telah terinstal
-
-###### Bagaimana jika python belum terinstall ?
-ikuti tautan berikut https://www.dicoding.com/academies/86/tutorials/4738?from=4736 (daftar akun dicoding terlebih dahulu)
-
-# Hello World dengan python
-Masuk ke direktori folder repository ini dengan cara :
+##hello word dengan python
+masuk ke direktroy folder repository ini dengan cara:
 ```bash
-cd /path/nama-direktori
-`
-NB : merupakan nama-nama direktori diatas direktori repository ini, seperti misalnya Document
+cd /path/nama direktory
+```
 
-1. Buat sebuah file dengan nama main.py, cara berikut ini
-`bash
+catatan : path disini merupakan nama nama direktory diatas direktory repository null seperti misalnya Documen
+
+1.buat sebuah file baru dengan nama file main.py varanya berikut ini
+```
 nano main.py
 `
-2.
-`python
-print('Hello World !!!')
+
+2.jalankan file tersebut dengan cara
 `
-3. Jalankan file tersebut dengan cara
-`python
 python main.py
 `
-4. Hasil output harusnya sesuai dengan inputnya, yaitu :
-`python
-Hello World !!!
+
+3.jalankan file tersebut dengan  cara
+`
+python main.py
 `
 
-## Python Interpreter
-1. Python interpreter merupakan program yang dibaca & dieksekusi pada sebuah sesi pada command line. Untuk masuk ke python interpreter, caranya sebagai berikut :
-    -Buka CMD (windows) / Terminal (Linux/MacOS) >> Ketikkan 'Python'
+4.hasil outputnya harusnya sesuia denganyang ada di isinya, 
+`
+hello word
+`
+	
+## python interpreter
+    1.python interpreter merupakan program yang dibaca & dieksekusi pada sebuah sesi pada command line. Untuk masuk ke pyhon interpreter, caranya sebagai berikut:
+        -Buka CMD (window)/terminal (linux/OS) >> ketikan "python"
 
-## Menggunakan Modul (Function Dasar)
-Modul merupakan set program yang sudah disediakan oleh python yang tinggal pakai, contohnya adalah seperti ini :
 
-```Python
->>> import datetime
->>> datetime.datetime.now()
-datetime.datetime(2019, 12, 1, 21, 39, 43, 673959)
+    ```python
+       Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+       Type "help", "copyright", "credits" or "license" for more information.
+    lalu untuk keluar cmd atau terminal ketikan "ctrl + D"
 
-Untuk menampilkan tanggal dan jam pada saat ini. lalu selanjutnya, kita akan menggunakan modul 'random' untuk mengacak karakter alfabet seperti contoh code dibawah ini :
-```
-```Python
->>> import random
->>> import string
->>> def randomword(length):
+## menggunakan modul
+    Modul merupakan set program yang sudah disediakan oleh python yang tingal dipakai 
+
+```python
+
+    >>> import datetime
+    >>> datetime.datetime.now()
+    datetime.datetime(2019, 12, 1, 20, 47, 4, 998304)
+sebagai contoh,kode diatas yang digunakan untuk menampilkan tanggal (datetime) saat ini.
+lalu selanjutya kita akan menampilkan karakter alfabet secara random, seperti contoh di bawa
+
+```python
+    >>> import random
+    >>> import string
+    >>> def randomword(length):
 ...     letters = string.ascii_lowercase
-...     return ''.join(random.choice(letters) for i in range(length))
+...     return ''.join(random.choice(letters) for i in range (length))
 ...
->>> randomword(10)
-'ogrpxncyyt'
-```
-Lalu kita bakal buat program untuk mengacak nama dari seluruh pelatih desktopbprogramming amcc dengan contoh kode berikut ini :
-```Python
->>> def random_name():
-...     name = ('david', 'sabil', 'peby', 'angung', 'yanuar')
-...     return ''.join(random.choice(name) for i in range(1))
-...
->>> random_name()
-'yanuar'
-```
+>>> randomword(5)
+'klgzr'
+bisa juga kita menggunakan kode tersebut untuk memilih nama secara random, dengan menginputkan nama nama yang ingin di random dengan list pada kodenya
 
-## Variabel
-```Python
-import datetime
-print('Waktu Sekarang adalah ',datetime.datetime.now())
 
-#Variabel
-mynow =  datetime.datetime.now()
-print(mynow)
+```python
+>>> import random
+    >>> import string
+    def randomname():
+    ...     name = ('david','yanuar','sabil','peby','agung')
+    ...     return ''.join(random.choice(name) for i in range(1))
+    ...
+    >>> randomname()
+    'peby'
 
-print(datetime.datetime.now())
+# menggunakan variabel
+variabel adalh tempat menyimpan data pada kode program, lalu bagaimana menggunakan  variabel
 
-#Menggabungkan INT & STR
+```python 
+>>> import datetime
+>>> print ('waktu sekarang',datetime.datetime now ()
+waktu sekarang 12-08-2019 21.13
+
+"""menggabukan variabel string dan integer"""
 number = 10
-string = 'Agung Triyadi'
-print(number, string)
-```
+string = 'yanuar'
+print(number,string)
 
-## Simple Type
-```Python
-a = 10
-b = '10'
-c = 10.1
 
-sum1 = a+a
-sum2 = b+b
-sum3 = c+c
 
-print(sum1, sum2, sum3)
-print(type(a), type(b), type(c))
-```
+# tipe data
+dalam python ada berbagai macam type data sperti integer,string,float,
+list,dictionary hingga float, list, dictionary hinga tupple.
+di dalam file baasic.py sudah ada contoh bagaimana menggunakan berbagai macam file tersebut.
+
+#function (fungsi)

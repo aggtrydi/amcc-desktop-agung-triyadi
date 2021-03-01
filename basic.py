@@ -1,45 +1,69 @@
+"""DATE TIME"""
 import datetime
-print('Waktu Sekarang adalah ',datetime.datetime.now())
+mynow = datetime.datetime.now()
+print ('tanggal hari ini', mynow)
 
-# Variabel
-mynow =  datetime.datetime.now()
-print(mynow)
-
-print(datetime.datetime.now())
-
-# Menggabungkan INT & STR
+"""menggabukan variabel string dan integer"""
 number = 10
-string = 'Agung Triyadi'
-print(number, string)
+string = 'yanuar'
+print(number,string)
 
-# Simple Types
-a = 10
-b = '10'
-c = 10.1
+""" simpe type """
 
-sum1 = a+a
-sum2 = b+b
-sum3 = c+c
+x = 10
+y = 10
+z = 15.1
 
-print(sum1, sum2, sum3)
-print(type(a), type(b), type(c))
+hasil1 = x+x
+hasil2 = y+y
+hasil3 = z+z
 
-# List
-students_grades = [9,8,7,6,5,4,3,2,1]
-print(list(range(1,10)))
-print(list(range(1, 10, 2)))
-print(list(range(1, 20, 3)))
-dalam = [1.2, 5, '6',[0,9,8]]
+print (hasil1,hasil2,hasil3)
+print (type(x),type(y),type(z))
 
-# Calculating List
-sum_list = sum(students_grades)
+#"""LIST"""
+
+print (list(range(1,20,3)))
+
+temperature = [12.5 , 10, 'yanuar']
+print (temperature)
+
+""" calculating list"""
+students_grades = [2.5,5.4,7.5,8.5,9.5]
+mysum = sum(students_grades)
+print (mysum)
 length = len(students_grades)
-mean = sum_list / length
+print (length)
+mean = mysum / length
 print(mean)
 
-#Dictionary
-my_dict = {'agung': 100, 'yanuar': 70, 'David': 80, 'Sabil': 85}
+"""cara mencari nilai dalam list"""
+students_grades = [10.0,10.5,11.5,10.0,12.0]
+print(students_grades.count(10.0))
 
-#Tupple
-my_tupple = (4,3,2,1)
-print(my_tupple)
+students = {'sabil': 7.9,'yanuar':8.0,'agung':8.5}
+print(students.values())
+print(students.keys())
+
+"""cara membuat tampilan huruf menjadi huruf kecil"""
+username = 'Python'
+print(username.lower())
+
+"""Panjang nilai dalam List"""
+length = len(students_grades)
+print (length)
+mean = mysum / length
+print(mean)
+
+"""Tuple"""
+
+
+"""more with list"""
+nilai_murid = [9.5,9.6,7.8,9.4,7.8,9.0]
+nilai_murid.append(7.7) #menambahkan nilai dalam list
+print (nilai_murid)
+
+nilai_murid.index(9.5) #mencari index pada list
+nilai_murid.clear() #menghaapus isi pada list
+print(nilai_murid)
+
